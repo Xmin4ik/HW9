@@ -8,6 +8,8 @@ public class NewMain {
         WarAndPeac.setYearPublisher(1865);
         System.out.println(WarAndPeac.getPublicationYear());
         System.out.println(WarAndPeac.getTitle()+" "+WarAndPeac.getPublicationYear()+" "+author.getFirstName()+" "+author.getLastName());
-        System.out.println(WarAndPeac.toString());
+        System.out.println(WarAndPeac);
+        System.out.println(WarAndPeac.equals(HFJava));
+        System.out.println(WarAndPeac.hashCode() == HFJava.hashCode());
     }
 }
